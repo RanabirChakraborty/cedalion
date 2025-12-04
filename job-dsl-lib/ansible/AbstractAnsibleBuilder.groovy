@@ -20,7 +20,7 @@ class AbstractAnsibleBuilder {
     String downloadServerUrl
     String copyFromParentJob = "False"
     String mailTo = "Ansible MW Core <ansible-middleware-core@redhat.com>"
-    String mailFrom = "Olympus CI <rpelisse@redhat.com>"
+    String mailFrom = "Olympus CI <ansible-middleware-core@redhat.com>"
 
     def build(factory) {
         return factory.with {
